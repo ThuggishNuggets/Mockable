@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 
 import PackageDescription
 import CompilerPluginSupport
@@ -82,5 +82,5 @@ let package = Package(
             plugins: devPlugins
         )
     ],
-    swiftLanguageVersions: [.v5, .version("6")]
+    swiftLanguageVersions: [.v5, .v6]
 )
