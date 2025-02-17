@@ -45,7 +45,7 @@ let devTargets: [Target] = when(test, [
 
 let package = Package(
     name: "Mockable",
-    platforms: [.macOS(.v12), .iOS(.v13), .tvOS(.v13), .watchOS(.v6), .macCatalyst(.v13)],
+    platforms: [.macOS(.v12), .iOS(.v17), .tvOS(.v13), .watchOS(.v6), .macCatalyst(.v13)],
     products: [
         .library(
             name: "Mockable",
